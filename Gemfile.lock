@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/thedarkone/rails-dev-boost.git
+  revision: 216de40f33fe794e19c492c283d69d4911cab741
+  specs:
+    rails-dev-boost (0.1.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -155,5 +161,6 @@ PLATFORMS
 DEPENDENCIES
   pg
   rails (= 3.0.7)
+  rails-dev-boost!
   spree
   unicorn
