@@ -6,4 +6,5 @@
     <%= hook :footer_right %>
   </div>
 </div>   
+<%= Tracker.current.analytics_id rescue '000' %>
 <%= render 'shared/google_analytics' %>
