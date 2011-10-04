@@ -1,6 +1,4 @@
-<% if tracker = Tracker.current %>
-
-<p>copyright 2011 Asapana</p>
+<% if tracker = Tracker.find(:first, :conditions => {:active => true, :environment => Rails.env.to_s})    %>
 
   <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
