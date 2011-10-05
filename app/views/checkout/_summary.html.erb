@@ -8,7 +8,7 @@
     <tbody id="summary-order-charges">
       <% order.adjustments.each do |adjustment| %>
         <tr>
-          <td><%= raw(adjustment.label) %>: </td>
+          <td><%= adjustment.label %>: </td>
           <td><%= number_to_currency adjustment.amount %></td>
         </tr>
       <% end %>
