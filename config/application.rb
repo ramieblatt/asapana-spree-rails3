@@ -41,5 +41,6 @@ module AsapanaStore
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    config.action_controller.cache_store = ActiveSupport::Cache::FileStore.new(Rails.root.join("tmp", "cache").to_s)
   end
 end

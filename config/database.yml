@@ -41,7 +41,7 @@ test:
 
 production:
     adapter: postgresql
-    database: asapana_spree_rails3
-    username: asapana_spree
+    database: asapana_production
+    username: asapana
     password: ananda15
     encoding: UTF8
