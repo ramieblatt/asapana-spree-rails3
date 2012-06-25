@@ -1,5 +1,5 @@
 APP_ROOT="/var/www/asapana"
-worker_processes 4 
+worker_processes 2
 working_directory "#{APP_ROOT}/"
 preload_app true
 timeout 60

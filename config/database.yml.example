@@ -8,7 +8,7 @@ development:
     adapter: postgresql
     database: asapana_spree_prod
     username: asapana_spree
-    password: ananda15
+    password: XYZ
     encoding: UTF8
 
 # Connect on a TCP socket.  Omitted by default since the client uses a
@@ -36,12 +36,12 @@ test:
     adapter: postgresql
     database: asapana_spree_test
     username: asapana_spree
-    password: ananda15
+    password: XYZ
     encoding: UTF8
 
 production:
     adapter: postgresql
     database: asapana_production
     username: asapana
-    password: ananda15
+    password: XYZ
     encoding: UTF8
