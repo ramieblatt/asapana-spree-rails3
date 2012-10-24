@@ -1,9 +1,9 @@
 APP_ROOT="/var/www/asapana"
-worker_processes 2
+worker_processes 1
 working_directory "#{APP_ROOT}/"
 preload_app true
-timeout 60
-listen "#{APP_ROOT}/tmp/sockets/unicorn.sock", :backlog => 128
+timeout 30
+listen "#{APP_ROOT}/tmp/sockets/unicorn.sock", :backlog => 32
 
 # http://www.rubyenterpriseedition.com/faq.html#adapt_apps_for_cow
 if GC.respond_to?(:copy_on_write_friendly=)
