@@ -1,8 +1,10 @@
 Dear <%= @user.email %>,
 
-Welcome to <%= Spree::Config[:site_name] %>!
+Welcome to the <%= Spree::Config[:site_name] %>!
 
-You are now signed up as a registered user on <%= Spree::Config[:site_name] %> with discounted wholesale pricing.
+You are now signed up as a registered user on the <%= Spree::Config[:site_name] %> with discounted wholesale pricing. To go to the store, go here:
+<%= raw(root_url(:host => 'store.asapana.com')) %>
+
 
 If you forget or need to reset your password please use the following link:
 <%= raw(new_user_password_url(:host => 'store.asapana.com')) %>
