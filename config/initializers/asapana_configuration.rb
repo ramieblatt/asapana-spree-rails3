@@ -4,3 +4,4 @@ if Spree::Config.instance
   Spree::Config.set(:site_name => "Asapana Store")
   Spree::Config.set(:site_url => "store.asapana.com")
 end
+REGISTERED_USER_DISCOUNT = 0.25
