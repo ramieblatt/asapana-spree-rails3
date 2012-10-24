@@ -9,3 +9,6 @@ en:
       format:
         # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
         unit: "$ USD "
+  user_mailer:
+    signup_email:
+      subject:  "Signup Confirmation"
