@@ -39,6 +39,8 @@ end
       <%= breadcrumbs(@taxon) if @taxon %>
       <% if flash.notice %>
       <div class="flash notice"><%= flash.notice %></div>
+      <% elsif !current_user %>
+      <div class="flash notice"><%= link_to("Sign up to see wholesale discount pricing, click here, it's easy!", signup_path) %><br/>Additional discounting available for high volume or frequent orders.</div>
       <% end %>
       <% if flash[:error] %>
       <div class="flash errors"><%= flash[:error] %></div>

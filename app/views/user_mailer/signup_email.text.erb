@@ -1,0 +1,10 @@
+Dear <%= @user.email %>,
+
+Welcome to <%= Spree::Config[:site_name] %>!
+
+You are now signed up as a registered user on <%= Spree::Config[:site_name] %> with discounted wholesale pricing.
+
+If you forget or need to reset your password please use the following link:
+<%= raw(new_user_password_url(:host => 'store.asapana.com')) %>
+
+Thank you for your business.
