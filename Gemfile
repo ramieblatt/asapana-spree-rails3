@@ -1,6 +1,7 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails', '3.0.19'
+gem 'rake', '0.9.2.2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,9 +13,11 @@ gem 'unicorn'
 
 gem 'spree', :path => 'vendor/gems/spree-0.60.0' 
 
-group :development do
-  gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git', :require => 'rails_development_boost'
-end
+# group :development do
+#   gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git', :require => 'rails_development_boost'
+# end
+# 
+gem 'comfortable_mexican_sofa'
 
 # Deploy with Capistrano
 # gem 'capistrano'
