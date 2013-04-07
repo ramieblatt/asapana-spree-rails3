@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/techize/spree_dynamic_sitemaps.git
+  revision: dcf5c71dafa51cb31f315869961eda4dd124ad30
+  specs:
+    dynamic_sitemaps (0.0.1)
+
+GIT
   remote: git://github.com/thedarkone/rails-dev-boost.git
   revision: 216de40f33fe794e19c492c283d69d4911cab741
   specs:
@@ -167,6 +173,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dynamic_sitemaps!
   pg
   rails (= 3.0.19)
   rails-dev-boost!

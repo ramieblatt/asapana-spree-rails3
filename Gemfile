@@ -12,6 +12,8 @@ gem 'unicorn'
 
 gem 'spree', :path => 'vendor/gems/spree-0.60.0' 
 
+gem 'dynamic_sitemaps', :git => 'git://github.com/techize/spree_dynamic_sitemaps.git'
+
 group :development do
   gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git', :require => 'rails_development_boost'
 end
